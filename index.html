@@ -13,15 +13,15 @@ rel="stylesheet">
 <body>
     <div class="weatherApp">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city.." required class="search-form-input" id="search-form-input"/>
             <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">Paris</h1>
+        <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
         <p class="weather-app-details">
             Thursday 14:23, windy
             <br/>
@@ -39,5 +39,6 @@ rel="stylesheet">
     <footer>Built by <a href="https://github.com/MaraLearns">Umarah</a> on <a href="https://github.com/MaraLearns/maraforecastapp">GitHub</a>
          hosted by <a href="https://maraforecastapp.netlify.app/">Netlify</a></footer>
         </div>
+        <script src="index.js"></script>
 </body>
 </html>
